@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "id": "2013",
+    "name": "Date:",
+    "date": "1900-01-01",
+    "location": "Ericsson, Jonathan"
+  },
+  "documents": [
+    {
+      "id": "eabfe4c8-18b6-4b16-b766-92044953b557",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:33.928430+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuCjIwMTMtMTItMTIKVmlzaXRpbmcgVGVhbSBJbmp1cnkgUmVwb3J0ClBsYXllcidzIE5hbWU6CkRhdGU6CkZpbmFsaXplZDoKTG9jYXRpb246CkVyaWNzc29uLCBKb25hdGhhbgoyMDEzLTEyLTEyClRhbXBhClllcwpSZWxhdGVkIEV2ZW50cy9QUE1FL0V4aXQgRXhhbWluYXRpb25zOgoyMDEzLTEyLTEyIEVTVCBMIFdyaXN0IGxhY2VyYXRpb24KSGlzdG9yeToKc2thdGUgdG8gbGVmdCB3cmlzdApQaHlzaWNhbCBFeGFtaW5hdGlvbjoKMi41LTNjbSBzdHJhaWdodCBsYWMgaW4gbGF0ZXJhbCBjcmVhc2Ugb3ZlciB1bG5hCmdvb2QgZmxleGlvbiwgZ29vZCBleHRlbnNpb24sIG5vIGxvc3Mgb2Ygc2Vuc2F0aW9udG8gZmluZ2VycwojMSA0LTAgY2hyb21pYyBzdXR1cmUgc3ViY3V0CiM1IDUtMCBpbnRlcnJ1cHRlZCBwcm9sZW5lCkRpYWdub3NpczoKbGVmdCB3cmlzdCBsYWMKUmVjb21tZW5kYXRpb25zOgp3b3VuZCBjYXJl"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:18:33.928430+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/91c5a335-39c3-4547-ab38-b7ce9b4a8a92"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "eb0ec7a9-5288-4690-9ed5-0d7e4b371835",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:34.223810+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "bGVmdCB3cmlzdCBsYWMKUmVjb21tZW5kYXRpb25zOgp3b3VuZCBjYXJlCmtlZmxleCAyNTBtZyBxaWQgeDdkCkF0dGFjaG1lbnRzClBhZ2UgMSBvZiAx"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:18:34.223810+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/b8588cd8-8239-485d-a87a-a1e03835be68"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "fe3c6b18-0363-460c-acf3-7406521c86ee",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:33.941669+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "display": "left wrist lac",
+            "system": "http://snomed.info/sct"
+          }
+        ],
+        "text": "Diagnosis: left wrist lac\nHistory: skate to left wrist\nPhysical Examination:\n2.5-3cm straight lac in lateral crease over ulna\ngood flexion, good extension, no loss of sensationto fingers\n#1 4-0 chromic suture subcut\n#5 5-0 interrupted prolene\nRecommendations: wound care\nPhysical Exam: 2.5-3cm straight lac in lateral crease over ulna\ngood flexion, good extension, no loss of sensationto fingers\n#1 4-0 chromic suture subcut\n#5 5-0 interrupted prolene"
+      },
+      "recordedDate": "2025-06-23T17:18:33.941669+00:00",
+      "subject": {
+        "reference": "Patient/91c5a335-39c3-4547-ab38-b7ce9b4a8a92"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "ace54723-746e-4590-9bb1-211197c34a32",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:34.232968+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "display": "left wrist lac",
+            "system": "http://snomed.info/sct"
+          }
+        ],
+        "text": "Diagnosis: left wrist lac\nHistory: skate to left wrist\nPhysical Examination:\n2.5-3cm straight lac in lateral crease over ulna\ngood flexion, good extension, no loss of sensationto fingers\n#1 4-0 chromic suture subcut\n#5 5-0 interrupted prolene\nRecommendations: wound care\nPhysical Exam: 2.5-3cm straight lac in lateral crease over ulna\ngood flexion, good extension, no loss of sensationto fingers\n#1 4-0 chromic suture subcut\n#5 5-0 interrupted prolene"
+      },
+      "recordedDate": "2025-06-23T17:18:34.232968+00:00",
+      "subject": {
+        "reference": "Patient/b8588cd8-8239-485d-a87a-a1e03835be68"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    }
+  ]
+}

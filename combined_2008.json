@@ -1,0 +1,81 @@
+{
+  "patient": {
+    "id": "2008",
+    "name": "Ericsson, Jonathan",
+    "date": "2008-12-05",
+    "location": "Unknown"
+  },
+  "documents": [
+    {
+      "id": "232f8bb7-d30e-4fd5-a737-a44853312b90",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:08.332176+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuCjIwMDgtMTItMDUKRG9jdG9yIE5vdGUKUGxheWVyJ3MgTmFtZToKRXJpY3Nzb24sIEpvbmF0aGFuCkRhdGU6CjIwMDgtMTItMDUKQ3JlYXRlZCBCeToKU25pdHplciwgUm9iCkZpbmFsaXplZDoKWWVzCkZpbmFsaXplZCBEYXRlOgoyMDA4LTEyLTA1ClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CjIwMDgtMTItMDUgRVNUIEwgQWNyb21pb2NsYXZpY3VsYXIgMcKwIHNwcmFpbiAtYWN1dGUKU3ViamVjdGl2ZToKT2JqZWN0aXZlOgpBc3Nlc3NtZW50OgpQbGFuOgpBdHRhY2hlZCBGaWxlczoKVXBsb2FkIFRpbWUKRmlsZSBTaXplCkZpbGUgTmFtZQpFcmljc3NvbiBBLUMgU3ByYWluIDEyLTA1LTA4LnBkZgoyMTMuNTg1S0IKMjAwOC0xMi0wNSAgMjI6MTYKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:18:08.332176+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/c71e445c-0c4f-4c02-a526-1adb1335b117"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "3fc91d08-f39a-447c-b3d8-ae93d0205bb0",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:08.339148+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:18:08.339148+00:00",
+      "subject": {
+        "reference": "Patient/c71e445c-0c4f-4c02-a526-1adb1335b117"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    }
+  ]
+}

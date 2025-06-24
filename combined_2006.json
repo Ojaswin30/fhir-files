@@ -1,0 +1,1254 @@
+{
+  "patient": {
+    "id": "2006",
+    "name": "Ericsson, Jonathan",
+    "date": "2006-09-30",
+    "location": "Unknown"
+  },
+  "documents": [
+    {
+      "id": "80606582-d951-4125-9dc2-1501730e7630",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:18.380464+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTA5LTMwClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTA5LTMwCkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgogUFBNRSAyMDE2LTA5LTIyIEFyaXpvbmEKQXRobGV0aWMgVHJhaW5lci9UaGVyYXBpc3QgTm90ZQpJQ0UKMjAgbWluCkNQCklGQwpJRkMKVGltZToKMjAgbWluCkZyZXF1ZW5jeToKODAtMTUwClN1YmplY3RpdmU6ClNsaWdodCBpbXByb3ZlbWVudCB0b2RheS4gIFN0aWZmIGluIGxvdyBiYWNrIHVwb24gYXdha2VuaW5nLgpPYmplY3RpdmU6"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:18.380464+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/c800ceb6-7e89-4947-80c0-fce75ce0b903"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "7616a784-1a68-4e6b-98cf-2e21f9f232d7",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:18.753802+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "T2JqZWN0aXZlOgpIaXAgZmxleG9yIHN0cmV0Y2hpbmcsIFRBIHgxMCwgcGVsdmljIHRpbHRzIHggMTAsIFJTIGV4J3MsIFVCRSB4IDEwIG1pbi4gIE5vIHNrYXRpbmcgdG9kYXkuCkFzc2Vzc21lbnQ6CkZlZWxzIGJldHRlciBhZnRlciBoZSBnZXRzIG1vcmUgYWN0aXZlIGFuZCB0aGUgZGF5IHByb2dyZXNzZXMuClBsYW46CkNvbnRpbnVlLgpBdHRhY2hlZCBGaWxlczoKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:18.753802+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/ac1117f6-f1ce-4be2-bd19-5a4b4c011fce"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "aa4dd26d-8b58-418b-9d0b-3ea6bd2f0489",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:24.392368+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTA5LTMwClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTA5LTMwCkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgogUFBNRSAyMDE2LTA5LTIyIEFyaXpvbmEKQXRobGV0aWMgVHJhaW5lci9UaGVyYXBpc3QgTm90ZQpJQ0UKMjAgbWluCkNQCklGQwpJRkMKVGltZToKMjAgbWluCkZyZXF1ZW5jeToKODAtMTUwClN1YmplY3RpdmU6ClNsaWdodCBpbXByb3ZlbWVudCB0b2RheS4gIFN0aWZmIGluIGxvdyBiYWNrIHVwb24gYXdha2VuaW5nLgpPYmplY3RpdmU6"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:24.392368+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/910f0c29-defb-4bbb-9f28-b6c3007b0854"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "7da5dbd8-ab01-4f4c-b485-f9574d9f6498",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:24.633147+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "T2JqZWN0aXZlOgpIaXAgZmxleG9yIHN0cmV0Y2hpbmcsIFRBIHgxMCwgcGVsdmljIHRpbHRzIHggMTAsIFJTIGV4J3MsIFVCRSB4IDEwIG1pbi4gIE5vIHNrYXRpbmcgdG9kYXkuCkFzc2Vzc21lbnQ6CkZlZWxzIGJldHRlciBhZnRlciBoZSBnZXRzIG1vcmUgYWN0aXZlIGFuZCB0aGUgZGF5IHByb2dyZXNzZXMuClBsYW46CkNvbnRpbnVlLgpBdHRhY2hlZCBGaWxlczoKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:24.633147+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/f798042f-9f74-4a3c-9cbb-2a0fc778632d"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "3f2a6976-1b63-42c7-8872-08c5080cbd4c",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:28.531665+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTAxClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTAxCkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgpBdGhsZXRpYyBUcmFpbmVyL1RoZXJhcGlzdCBOb3RlCklDRQoyMCBtaW4KQ1AKTWFudWFsIFRoZXJhcHkKU1RNIHRvIEx1bWJvZG9yc2FsIGZhc2NpYQpTdWJqZWN0aXZlOgpGZWVsaW5nIGJldHRlciB0b2RheSwgbW92ZW1lbnQgaXMgYmV0dGVyIHRoaXMgYW0uCk9iamVjdGl2ZTo="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:28.531665+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/afab0770-0fa5-4f44-9ca4-db92a4a94c0f"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "ef397f53-b6d4-4e48-ad04-4a8969735dc6",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:28.765972+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "T2JqZWN0aXZlOgpCaWtlIDE1IG1pbiwgUFQgMTB4LCBUQSAxMHgsIFNLVEMgMTB4LCBES1RDIDEweCwgUlMgZXgncyBpbiBob29rbHlpbmcsIFN0YWJpbGl6YXRpb24gZXgncyBpbiA0IHB0LCAgSGlwIGZsZXhvciBzdHJldGNoaW5nLiBObyAKc2thdGluZyB0b2RheS4gIFNjaGVkdWxlZCBmb3IgWCByYXkgYW5kIE1SSSB0b21vcnJvdy4KQXNzZXNzbWVudDoKTm8gcGFpbiB3aXRoIGFueSBwYXJ0IG9mIHRyZWF0bWVudC4KUGxhbjoKVGVzdHMgdG9tb3Jyb3cuCkF0dGFjaGVkIEZpbGVzOgpQYWdlIDEgb2YgMQ=="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:28.765972+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/4bf71e18-cf49-4175-be9d-5097a211bbc3"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "7b75d955-12d8-44d0-84cf-8c8e8993a6b2",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:43.502486+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTAyClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTAyCkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgogUFBNRSAyMDA3LTA5LTEzIENyYWlnIEJyZXdlcgpBdGhsZXRpYyBUcmFpbmVyL1RoZXJhcGlzdCBOb3RlClN1YmplY3RpdmU6Ck9iamVjdGl2ZToKWC1SYXlzIGFuZCBNUkkgdG9kYXkuICBUZWFtIGRheSBvZmYgdG9kYXkuCkFzc2Vzc21lbnQ6ClBsYW46ClJlY2VpdmUgcmVzdWx0cyBsYXRlciB0b2RheSBvciB0b21vcnJvdwpBdHRhY2hlZCBGaWxlczoKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:43.502486+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/97121d04-eb90-4541-9693-dd847f69f9c8"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "0add3ce8-1fa6-4301-a890-56b5b7a46c94",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:48.571614+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTAzClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTAzCkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgogUFBNRSAyMDA3LTA5LTEzIENyYWlnIEJyZXdlcgpBdGhsZXRpYyBUcmFpbmVyL1RoZXJhcGlzdCBOb3RlCklDRQoyMCBtaW4KQ1AgcG9zdCBleGVyY2lzZS4KVGhlcm1vdGhlcmFweQpNSFAgeCAxNSBtaW4KU3ViamVjdGl2ZToKRmVlbGluZyBiZXR0ZXIgdG9kYXkgYW5kIHdvdWxkIGxpa2UgdG8gc2thdGUgYXMgd2VsbC4KT2JqZWN0aXZlOg=="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:48.571614+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/4daaf03d-c613-430f-b3f7-39549029eb4e"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "0ae93a93-0be5-4d0a-963f-f7228f68150d",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:48.849219+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "T2JqZWN0aXZlOgpNb2QgYXMgYWJvdmUsIGhpcCBmbGV4IHN0cmV0Y2hlcywgUFQncywgVEEgeCAxMCwgUlMgZXgncywgNCBwdCBvcHBvc2l0ZSBhcm0vbGVnLiAgQmlrZSBmb3IgMjAgbWluLiAgU2thdGVkIGZvciAxNSBtaW4gdG9kYXkuCkFzc2Vzc21lbnQ6ClJlc3VsdHMgb2YgWCByYXkgYW5kIE1SSSByZXZlYWxlZCBzb21lIGZhY2V0IGpvaW50IGluZmxhbW1hdGlvbiBpbiBoaXMgbHVtYmFyIHNwaW5lLiAgV2l0aCBza2F0aW5nIHRvZGF5IGhlIGJlZ2FuIHRvIApleHBlcmllbmNlIGxvdyBiYWNrIHBhaW4gYWdhaW4gYW5kIHdhcyByZW1vdmVkIGZyb20gdGhlIGljZS4KUGxhbjoKcmUtZXZhbCB0b21vcnJvdy4KQXR0YWNoZWQgRmlsZXM6ClBhZ2UgMSBvZiAx"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:48.849219+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/0a1287b7-e91b-4a05-a749-119ce84053c7"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "92914f68-aa43-45b1-8c28-911da4a7e148",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:53.555920+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTA0ClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTA0CkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgogUFBNRSAyMDA3LTA5LTEzIENyYWlnIEJyZXdlcgpBdGhsZXRpYyBUcmFpbmVyL1RoZXJhcGlzdCBOb3RlCklDRQoyMCBtaW4KQ1AKVGhlcm1vdGhlcmFweQpNSFAgMjAgbWluClN1YmplY3RpdmU6CkpvbmF0aG9uIHJlcG9ydHMgbm90IGZlZWxpbmcgYW55IGJldHRlciB0b2RheSBhZnRlciBleHBlcmllbmNpbmcgTEJQIHdpdGggc2thdGluZyB5ZXN0ZXJkYXkuCk9iamVjdGl2ZTo="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:53.555920+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/e3f87fe4-e248-4c89-ba1f-0985bfe47dbb"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "86ff606a-1b1d-404f-aae7-bc77219d840b",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:53.844392+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "T2JqZWN0aXZlOgpObyBza2F0aW5nIHRvZGF5LiAgTW9kIGFzIGFib3ZlLCBTS1RDIDEwLCBES1RDIDEwLCBUQSAxMCwgUFQgMTAsIGRlYWQgYnVnIDEwIHgsIE9wcCBsZWcgYW5kIGFybSBpbiA0IHBvaW50IDEwLCBiaWtlIHggMjAgCm1pbi4KQXNzZXNzbWVudDoKVG9sZXJhdGluZyBvZmYgaWNlIHdvcmtvdXRzIHdlbGwuICBTbWFsbCByZWFjdGlvbiB0byB0aGUgc2thdGluZyB5ZXN0ZXJkYXkuClBsYW46CkNvbnQgdG8gcHJvZ3Jlc3Mgd2l0aCBvZmYgaWNlIHdvcmtvdXRzIGFuZCByZWhhYi4KQXR0YWNoZWQgRmlsZXM6ClBhZ2UgMSBvZiAx"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:15:53.844392+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/a7fbb15c-993c-4d5c-8bbe-75034f2f0c03"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "c3d1e949-6702-427e-bd7f-09bccb6e7456",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:01.220947+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTA3ClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTA3CkNyZWF0ZWQgQnk6ClZhbiBaYW50LCBQaWV0CkZpbmFsaXplZDoKWWVzCkZpbmFsaXplZCBEYXRlOgoyMDA4LTA3LTI0ClByb2dyZXNzOgpObwpSZWxhdGVkIEV2ZW50cy9QUE1FL0V4aXQgRXhhbWluYXRpb25zOgogMjAwNi0wOS0yOCBFU1QgICBOb24tc3BlY2lmaWMgbG93IGJhY2sgcGFpbiAvIAptZWNoYW5pY2FsIHBhaW4KIFBQTUUgMjAxNi0wOS0xNiBEYWxsYXMKQXRobGV0aWMgVHJhaW5lci9UaGVyYXBpc3QgTm90ZQpTdWJqZWN0aXZlOgpubyB0cmVhdG1lbnQgdG9kYXkgdGhlIHRlYW0gd2FzIGluIFBpdHRzYnVyZ2gKT2JqZWN0aXZlOgpBc3Nlc3NtZW50OgpQbGFuOgpBdHRhY2hlZCBGaWxlczoKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:16:01.220947+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/ea17f0b3-e800-4323-8872-e1aebf79e99d"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "83fd0a55-dce2-4d3d-bfe1-593b8f91e6ef",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:05.341821+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTA4ClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTA4CkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgpBdGhsZXRpYyBUcmFpbmVyL1RoZXJhcGlzdCBOb3RlClN1YmplY3RpdmU6Ck9iamVjdGl2ZToKRGF5IG9mZiBmb3IgSm9uYXRoYW4gYW5kIHRoZSB0ZWFtLgpBc3Nlc3NtZW50OgpQbGFuOgpBdHRhY2hlZCBGaWxlczoKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:16:05.341821+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/a6ffee5a-14ad-47a4-992f-045072d816a7"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "b9ea3df9-7455-48ab-9101-7e323d28b04c",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:09.851549+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTA5ClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTA5CkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgpBdGhsZXRpYyBUcmFpbmVyL1RoZXJhcGlzdCBOb3RlCklDRQoyMCBtaW4KQ1AgcG9zdCB0aGVyIGV4IGFuZCBza2F0aW5nClRoZXJtb3RoZXJhcHkKTUhQIHggMjAgbWluClN1YmplY3RpdmU6CkpvbmF0aGFuIGRlbmllcyBhbnkgc3RpZmZuZXNzIGluIGhpcyBsb3cgYmFjayB0b2RheSB1cG9uIGF3YWtlbmluZyB0aGlzIGFtLgpPYmplY3RpdmU6"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:16:09.851549+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/2bf6ae1e-181d-4803-8724-fa7ae1eca99e"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "0f8b008c-e460-48e2-a322-8f27270fc033",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:10.074967+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "T2JqZWN0aXZlOgpUcnVuayBST00gV05MIHdpdGggc29tZSBkaXNjb21mb3J0IGF0IGVuZCByYW5nZSBCQi4gIEFsbCBvdGhlciB0cnVuayBtb3ZlbWVudHMgcGFpbmZyZWUuCkFzc2Vzc21lbnQ6ClBsYW46CkF0dGFjaGVkIEZpbGVzOgpQYWdlIDEgb2YgMQ=="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:16:10.074967+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/349b6ed1-a326-4c52-98e9-1963ec527c52"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "7188bdc6-01e4-45fe-ae8e-b611e631ee41",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:13.962111+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuICAgICAgICAgICAgICAgICAgIAoyMDA2LTEwLTEwClBsYXllcidzIE5hbWU6CkVyaWNzc29uLCBKb25hdGhhbgpEYXRlOgoyMDA2LTEwLTEwCkNyZWF0ZWQgQnk6CkJhdW1hbm4sIFJ1c3MKRmluYWxpemVkOgpZZXMKRmluYWxpemVkIERhdGU6CjIwMDgtMDctMjQKUHJvZ3Jlc3M6Ck5vClJlbGF0ZWQgRXZlbnRzL1BQTUUvRXhpdCBFeGFtaW5hdGlvbnM6CiAyMDA2LTA5LTI4IEVTVCAgIE5vbi1zcGVjaWZpYyBsb3cgYmFjayBwYWluIC8gCm1lY2hhbmljYWwgcGFpbgogUFBNRSAyMDA4LTA5LTE5IFNhbiBKb3NlCkF0aGxldGljIFRyYWluZXIvVGhlcmFwaXN0IE5vdGUKSUNFCjE1IG1pbgpDUCBwb3N0IHRoZXIgZXggYW5kIHNrYXRlCk1hbnVhbCBUaGVyYXB5"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:16:13.962111+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/0b359e39-aaa9-44a7-ba98-5fec1c929806"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "6c4a0c50-91ac-45ff-b8de-37d41ca1eb30",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:14.225002+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "MTUgbWluCkNQIHBvc3QgdGhlciBleCBhbmQgc2thdGUKTWFudWFsIFRoZXJhcHkKTWFudWFsIHN0cmV0Y2hlcyBmb3IgaGlwIGZsZXhvcnMgd2l0aCBoaXAgYWRkIGFuZCB0cnVuayBzaWRlIGJlbmQgdG8gb3Bwb3NpdGUgc2lkZS4gIFJlY3R1cyBGZW1vcmlzIHN0cmV0Y2hlcyBwcm9uZSBhdCAKc2lkZSBvZiB0YWJsZSB3aXRoIG9wcG9zaXRlIGxlZyBvbiBmbG9vci4KVGhlcm1vdGhlcmFweQpNSFAgeCAyMCBtaW4KRXhlcmNpc2VzCkJpa2UsIFNLVEMgeDEwLCBES1RDIFggMTAsIFF1YWRyYXBlZCBvcHBvc2l0ZSBhcm0vbGVnLCBUQSB4MTAsIFBUIHggMTAuClN1YmplY3RpdmU6Ck5vIGFkdmVyc2UgcnhuIGZvbGxvd2luZyB5ZXN0ZXJkYXlzIHNrYXRlLgpPYmplY3RpdmU6CkluY3JlYXNlZCB0b2RheXMgc2thdGUgdG8gYXBwcm94IDMwLTM1IG1pbi4gIFRoZXIgZXgsIG1vZCwgYW5kIG1hbnVhbCBzdHJldGNoZXMgYXMgYWJvdmUuCkFzc2Vzc21lbnQ6"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:16:14.225002+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/2547ecb7-aa5e-47b1-b10e-6479c8f417e8"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "487bf643-e54e-48dd-bd02-7df29c56e076",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:14.512984+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "QXNzZXNzbWVudDoKTm8gcHJvYmxlbXMgd2l0aCBhZ2FpbiBvbiB0aGUgaWNlLgpQbGFuOgpDb250IHdpdGggc3RyZXRjaGVzIGFuZCBleGVyY2lzZXMsIHByb2dyZXNzIHdpdGggdGltZSBvbiB0aGUgaWNlLgpBdHRhY2hlZCBGaWxlczoKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:16:14.512984+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/ec6ccd20-aefe-4d28-b65d-301bc2aabc9f"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "49027fee-0fe5-4a1f-8e58-bfae3e54646f",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:18.432807+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:18.432807+00:00",
+      "subject": {
+        "reference": "Patient/c800ceb6-7e89-4947-80c0-fce75ce0b903"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "8fd856af-e371-4553-9935-8664a83e7b94",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:18.763004+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:18.763004+00:00",
+      "subject": {
+        "reference": "Patient/ac1117f6-f1ce-4be2-bd19-5a4b4c011fce"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "fb52d0e1-090d-46d4-8fdd-be11c7761566",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:24.394560+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:24.394560+00:00",
+      "subject": {
+        "reference": "Patient/910f0c29-defb-4bbb-9f28-b6c3007b0854"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "c171e9c6-204b-4587-9da9-dbafb1381993",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:24.641819+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:24.641819+00:00",
+      "subject": {
+        "reference": "Patient/f798042f-9f74-4a3c-9cbb-2a0fc778632d"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "085dfab3-c6fb-4a44-ae59-d0acedb91a09",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:28.535674+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:28.535674+00:00",
+      "subject": {
+        "reference": "Patient/afab0770-0fa5-4f44-9ca4-db92a4a94c0f"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "05de8df6-d6d7-4949-9b1d-466dd9f15696",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:28.778710+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:28.778710+00:00",
+      "subject": {
+        "reference": "Patient/4bf71e18-cf49-4175-be9d-5097a211bbc3"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "7e7dcd23-7cae-4b57-9792-7a2784b6d78d",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:43.511828+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:43.511828+00:00",
+      "subject": {
+        "reference": "Patient/97121d04-eb90-4541-9693-dd847f69f9c8"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "93d071ca-cc3d-4e79-a818-04c8817a3ef8",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:48.581022+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:48.581022+00:00",
+      "subject": {
+        "reference": "Patient/4daaf03d-c613-430f-b3f7-39549029eb4e"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "20c4a915-bc2e-4ccd-b617-d6fb6ac0bfcc",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:48.857550+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:48.857550+00:00",
+      "subject": {
+        "reference": "Patient/0a1287b7-e91b-4a05-a749-119ce84053c7"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "7038880b-e201-4c21-8230-685f2d2b4f6c",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:53.562660+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:53.562660+00:00",
+      "subject": {
+        "reference": "Patient/e3f87fe4-e248-4c89-ba1f-0985bfe47dbb"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "950dece8-2c87-45b8-b30f-cd73f4af6144",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:15:53.853267+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:15:53.853267+00:00",
+      "subject": {
+        "reference": "Patient/a7fbb15c-993c-4d5c-8bbe-75034f2f0c03"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "b4870968-2e66-420c-88fa-6f3e8ea5f837",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:01.224550+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:16:01.224550+00:00",
+      "subject": {
+        "reference": "Patient/ea17f0b3-e800-4323-8872-e1aebf79e99d"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "1972cdfc-85bd-49ea-a110-2fcc1a16284d",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:05.352983+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:16:05.352983+00:00",
+      "subject": {
+        "reference": "Patient/a6ffee5a-14ad-47a4-992f-045072d816a7"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "8d299451-778f-44e4-a293-e47099af4dbd",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:09.862042+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:16:09.862042+00:00",
+      "subject": {
+        "reference": "Patient/2bf6ae1e-181d-4803-8724-fa7ae1eca99e"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "27dcb727-7c91-400e-b341-21aa20d1bf70",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:10.082922+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:16:10.082922+00:00",
+      "subject": {
+        "reference": "Patient/349b6ed1-a326-4c52-98e9-1963ec527c52"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "e74578f1-2e8b-4d50-99bd-d1288702528a",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:13.969790+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:16:13.969790+00:00",
+      "subject": {
+        "reference": "Patient/0b359e39-aaa9-44a7-ba98-5fec1c929806"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "2757bcb0-5550-43e5-8d9c-d4b6af9c0a77",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:14.233056+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:16:14.233056+00:00",
+      "subject": {
+        "reference": "Patient/2547ecb7-aa5e-47b1-b10e-6479c8f417e8"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "a5190127-f518-4d1f-babf-ff9df9665832",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:16:14.521672+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "text": "Diagnosis: None\nHistory: None\nRecommendations: None\nPhysical Exam: None"
+      },
+      "recordedDate": "2025-06-23T17:16:14.521672+00:00",
+      "subject": {
+        "reference": "Patient/ec6ccd20-aefe-4d28-b65d-301bc2aabc9f"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    }
+  ]
+}

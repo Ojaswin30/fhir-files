@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "id": "2017",
+    "name": "Date:",
+    "date": "1900-01-01",
+    "location": "Ericsson, Jonathan"
+  },
+  "documents": [
+    {
+      "id": "85483bab-ce56-4fb8-864a-816c58d84518",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:55.622058+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuCjIwMTctMDItMDkKVmlzaXRpbmcgVGVhbSBJbmp1cnkgUmVwb3J0ClBsYXllcidzIE5hbWU6CkRhdGU6CkZpbmFsaXplZDoKTG9jYXRpb246CkVyaWNzc29uLCBKb25hdGhhbgoyMDE3LTAyLTA5CnZlcml6b24gY2VudGVyClllcwpSZWxhdGVkIEV2ZW50cy9QUE1FL0V4aXQgRXhhbWluYXRpb25zOgoyMDE3LTAyLTA5IEVTVCBMIFNjYXBob2lkIGZyYWN0dXJlCkhpc3Rvcnk6CmZhbGwgb24gb3V0c3RyZXRjaGVkIGhhbmQgYXMgY2hlY2tlZCBpbnRvIGJvYXJkcy4gIE5vIHByZXZpb3VzIHRyYXVtYQpQaHlzaWNhbCBFeGFtaW5hdGlvbjoKdGVuZGVyIG92ZXIgc251ZmYgYm94LiAgTm8gc3dlbGxpbmcgLiAgTGltaXRlZCB3cmlzdCBkb3JzaWZsZXhpb24KWHJheSBjL3cgd2Fpc3Qgc2NhcG9pZCBmcmFjdHVyZSwgbWluIGltYWxseSBkaXNwbGFjZWQKRGlhZ25vc2lzOgpsZWZ0IHNjaGFwb2lkIGZyYWN0dXJlClJlY29tbWVuZGF0aW9uczo="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:18:55.622058+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/8fbb037e-7356-4d86-bb16-e2e9b71e45a5"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    },
+    {
+      "id": "e76e544b-6714-4a62-8c31-099bba016acf",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:55.832607+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "bGVmdCBzY2hhcG9pZCBmcmFjdHVyZQpSZWNvbW1lbmRhdGlvbnM6CnNwbGludCwgY29uc3VsdCB3aXRoIHRlYW0gcGh5c2ljaWFuCkF0dGFjaG1lbnRzCkNyZWF0ZSBUaW1lClNpemUKTmFtZQpFUklDS1NTT04yLmpwZwoyNTAuODQ3S0IKMjAxNy0wMi0wOSAgMjA6MTkKRVJJQ0tTU09OMS5qcGcKMzcyLjk0NUtCCjIwMTctMDItMDkgIDIwOjE5ClBhZ2UgMSBvZiAx"
+          }
+        }
+      ],
+      "date": "2025-06-23T17:18:55.832607+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/9985c48e-4f3c-4b96-b7f2-8216cbf1b0ba"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "81236a9f-3b8b-433e-9fb9-71f3f2a0c670",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:55.628782+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "display": "left schapoid fracture",
+            "system": "http://snomed.info/sct"
+          }
+        ],
+        "text": "Diagnosis: left schapoid fracture\nHistory: fall on outstretched hand as checked into boards.  No previous trauma\nPhysical Examination:\ntender over snuff box.  No swelling .  Limited wrist dorsiflexion\nXray c/w waist scapoid fracture, min imally displaced\nRecommendations: None\nPhysical Exam: tender over snuff box.  No swelling .  Limited wrist dorsiflexion\nXray c/w waist scapoid fracture, min imally displaced"
+      },
+      "recordedDate": "2025-06-23T17:18:55.628782+00:00",
+      "subject": {
+        "reference": "Patient/8fbb037e-7356-4d86-bb16-e2e9b71e45a5"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    },
+    {
+      "id": "ea4144c3-bd79-431a-a0f3-db9cfffe0349",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:55.843629+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "display": "left schapoid fracture",
+            "system": "http://snomed.info/sct"
+          }
+        ],
+        "text": "Diagnosis: left schapoid fracture\nHistory: fall on outstretched hand as checked into boards.  No previous trauma\nPhysical Examination:\ntender over snuff box.  No swelling .  Limited wrist dorsiflexion\nXray c/w waist scapoid fracture, min imally displaced\nRecommendations: None\nPhysical Exam: tender over snuff box.  No swelling .  Limited wrist dorsiflexion\nXray c/w waist scapoid fracture, min imally displaced"
+      },
+      "recordedDate": "2025-06-23T17:18:55.843629+00:00",
+      "subject": {
+        "reference": "Patient/9985c48e-4f3c-4b96-b7f2-8216cbf1b0ba"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    }
+  ]
+}

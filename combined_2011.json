@@ -1,0 +1,87 @@
+{
+  "patient": {
+    "id": "2011",
+    "name": "Date:",
+    "date": "1900-01-01",
+    "location": "Ericsson, Jonathan"
+  },
+  "documents": [
+    {
+      "id": "6c0e5f82-412c-4aec-a347-65f09d687748",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:22.231859+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/DocumentReference"
+        ],
+        "versionId": "1"
+      },
+      "content": [
+        {
+          "attachment": {
+            "contentType": "text/plain",
+            "data": "RXJpY3Nzb24sIEpvbmF0aGFuCjIwMTEtMDItMDIKVmlzaXRpbmcgVGVhbSBJbmp1cnkgUmVwb3J0ClBsYXllcidzIE5hbWU6CkRhdGU6CkZpbmFsaXplZDoKTG9jYXRpb246CkVyaWNzc29uLCBKb25hdGhhbgoyMDExLTAyLTAyCk90dGF3YQpZZXMKUmVsYXRlZCBFdmVudHMvUFBNRS9FeGl0IEV4YW1pbmF0aW9uczoKMjAxMS0wMi0wMiBFU1QgUiBPdGhlciBoYW5kIGluanVyeQpIaXN0b3J5OgpKYW1tZWQgUiB0aHVtYlBhaW4gb3ZlciBkaXN0YWwgdGh1bWIKUGh5c2ljYWwgRXhhbWluYXRpb246ClIgdGh1bWIgbWlsZCBzd2VsbGluZyBvdmVyIHNvZnQgdGlzc3VlcyBmbGV4b3Igc3VyZmFjZSAKTmFpbCBub3JtYWwKSVAgam9pbnQgbm9ybWFsIFJPbSBmdWxsCkRpYWdub3NpczoKU29mdCB0aXNzdWUgaW5qdXJ5IFIgdGh1bWIKUmVjb21tZW5kYXRpb25zOgpYcmF5cyBOb3JtYWwKSWNlIApTcGxpbnQKQXR0YWNobWVudHMKUGFnZSAxIG9mIDE="
+          }
+        }
+      ],
+      "date": "2025-06-23T17:18:22.231859+00:00",
+      "status": "current",
+      "subject": {
+        "reference": "Patient/d1bdc0e2-e7fb-422c-9d31-357741c25745"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "11506-3",
+            "display": "Progress note",
+            "system": "http://loinc.org"
+          }
+        ]
+      },
+      "resourceType": "DocumentReference"
+    }
+  ],
+  "conditions": [
+    {
+      "id": "1f74c896-c132-4637-89b9-b4641647efe7",
+      "meta": {
+        "lastUpdated": "2025-06-23T17:18:22.241902+00:00",
+        "profile": [
+          "http://hl7.org/fhir/StructureDefinition/Condition"
+        ],
+        "versionId": "1"
+      },
+      "clinicalStatus": {
+        "coding": [
+          {
+            "code": "active",
+            "display": "Active",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical"
+          }
+        ]
+      },
+      "code": {
+        "coding": [
+          {
+            "display": "Soft tissue injury R thumb",
+            "system": "http://snomed.info/sct"
+          }
+        ],
+        "text": "Diagnosis: Soft tissue injury R thumb\nHistory: Jammed R thumbPain over distal thumb\nPhysical Examination:\nR thumb mild swelling over soft tissues flexor surface \nNail normal\nIP joint normal ROm full\nRecommendations: Xrays Normal\nIce \nSplint\nAttachments\nPage 1 of 1\nPhysical Exam: R thumb mild swelling over soft tissues flexor surface \nNail normal\nIP joint normal ROm full"
+      },
+      "recordedDate": "2025-06-23T17:18:22.241902+00:00",
+      "subject": {
+        "reference": "Patient/d1bdc0e2-e7fb-422c-9d31-357741c25745"
+      },
+      "verificationStatus": {
+        "coding": [
+          {
+            "code": "confirmed",
+            "display": "Confirmed",
+            "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status"
+          }
+        ]
+      },
+      "resourceType": "Condition"
+    }
+  ]
+}
